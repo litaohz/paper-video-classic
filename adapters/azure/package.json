@@ -1,0 +1,7 @@
+{
+  "name": "paper-video-classic-azure-adapter",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Optional explicit Azure Speech call; no credentials stored",
+  "dependencies": {"microsoft-cognitiveservices-speech-sdk": "1.52.0"}
+}

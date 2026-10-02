@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-video-classic"
+version = "0.1.0"
+description = "Evidence-first paper explainers: real PDF, exact highlights, deterministic video."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Thomas Li"}]
+dependencies = ["Pillow==11.3.0", "pypdfium2==5.5.0"]
+
+[project.scripts]
+paper-video = "paper_video.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
