@@ -47,6 +47,7 @@ python -m paper_video.cli render --config project/config.json --out out/section 
 ## Agent 与配音
 
 - [Classic Skill](skills/paper-video-classic/SKILL.md)：研究问题、证据链、讲稿、分镜、对时与验收方法，可放入支持Agent Skills的工具中。
+- [limu-paper（配套读论文与讲稿 Skill）](https://github.com/litaohz/limu-paper)：用李沐式五步教学结构读透论文（研究问题、已有路线、设计理由、机制与实验，含评测原题走读与视觉叙事）。已配置为 `skills/limu-paper` 子模块，可通过 `git clone --recurse-submodules https://github.com/litaohz/paper-video-classic.git`（或克隆后运行 `git submodule update --init --recursive`）自动拉取，也可单独克隆该仓库。
 - [制作说明](docs/pipeline.md)：目录、输入契约及可选Azure配音。默认示例不调用付费服务；运行Azure适配器才会使用自己的订阅。
 - [依赖与许可](THIRD_PARTY_NOTICES.md)：本仓库原创代码采用MIT，第三方依赖/论文/字体/声音适用其各自条款。
 

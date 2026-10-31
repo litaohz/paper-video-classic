@@ -15,6 +15,8 @@ Use for a selected paper or a requested subsection. A request for a pilot is not
 
 ## Explain before animating
 
+For deep paper reading, five-step cognitive path organization, benchmark walkthroughs, and visual storytelling scripts, pair this skill with [`limu-paper`](https://github.com/litaohz/limu-paper) (located at `skills/limu-paper/SKILL.md` when cloned with `--recurse-submodules`, or installed side-by-side in your agent's skill directory). When `limu-paper` is available, load it first to complete source verification and script structuring before scene authoring.
+
 1. Confirm the paper's identity, version, authors and permitted source use. Read the relevant full sections, figures, experiment setup, metrics and limitations; abstracts alone are insufficient.
 2. Plan a cognitive path: research problem, related approaches and gap, design rationale, mechanism, experiment and conclusion. Define important terms before using them. Examples should solve local difficulties, not replace the paper's argument.
 3. Write a compact claim/evidence record. Distinguish author findings, reported experiments, teaching illustrations and editorial interpretation. Calculate differences with code. Never invent measurements or provenance.

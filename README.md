@@ -58,7 +58,17 @@ Changing the narration invalidates its timings. The renderer rejects text covera
 
 ## Agent workflow
 
-Use [the classic skill](skills/paper-video-classic/SKILL.md) in your agent's skill directory. It teaches source selection, research-question-first explanation, claim/evidence alignment and production boundaries. A skill is guidance, not a claim that an entire paper can be understood or verified by one command.
+Use [the classic skill](skills/paper-video-classic/SKILL.md) in your agent's skill directory. It teaches source selection, research-question-first explanation, claim/evidence alignment and production boundaries. For the companion paper-reading and script-structuring workflow (five-step cognitive path, benchmark walkthroughs, and visual storytelling), pair it with [**limu-paper**](https://github.com/litaohz/limu-paper):
+
+```bash
+# Clone with limu-paper included under skills/limu-paper:
+git clone --recurse-submodules https://github.com/litaohz/paper-video-classic.git
+
+# Or pull limu-paper into an existing clone:
+git submodule update --init --recursive
+```
+
+A skill is guidance, not a claim that an entire paper can be understood or verified by one command.
 
 The rendering CLI works without an agent. Hosted generation, automatic publishing, private-message delivery, account setup, personal schedules and voice-preference histories are deliberately excluded.
 

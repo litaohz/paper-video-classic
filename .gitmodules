@@ -1,0 +1,3 @@
+[submodule "skills/limu-paper"]
+	path = skills/limu-paper
+	url = https://github.com/litaohz/limu-paper.git
